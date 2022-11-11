@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Satrio</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./stars.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    .will-change-transform {
+      will-change: transform;
+    }
+    .cursor::after {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 4px;
+      height: 100%;
+      background-color: #fff;
+      animation: cursor 0.8s linear infinite alternate;
+      will-change: opacity;
+    }
+
+    @keyframes cursor {
+      0%,
+      40% {
+        opacity: 1;
+      }
+
+      60%,
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <body class="bg-blackLight">
+    <!-- NAVBAR START -->
+    <div class="flex items-center shadow bg-blackLight h-[60px] px-14">
+      <h1 class="text-medium text-white text-[1.3rem]">@Muhammad Satrio</h1>
+      <div></div>
+    </div>
+    <!-- NAVBAR END -->
+
+    <div>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+
+      <div
+        class="px-14 w-ful xl:justify-between md:justify-between sm:justify-between justify-between items-center lg:justify-between lg:flex-row xl:flex-row md:flex-row sm:flex-row flex-col pt-5 flex"
+      >
+        <div class="lg:w-[50%] sm:w-[60%]">
+          <div class="flex">
+            <h1
+              class="dark:text-white font-normal text-left sm:text-[1.3rem] text-[1.7rem]"
+            >
+              Hi There
+            </h1>
+            <p class="HI w-5 text-[1.5rem]">👋</p>
+          </div>
+
+          <div class="text-left dark:text-white font-light">
+            <h1 class="dark:text-white text-left text-[1.7rem]">
+              I'm <span class="font-bold"> Muhammad Bayou Satrio</span>
+            </h1>
+            <div>
+              <span
+                class="text-yellow-400 inline-flex text-[1.3rem] h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform"
+              >
+                FRONT-END DEVELOPER
+              </span>
+              <span
+                class="cursor box-border inline-block w-1 h-6 ml-2 -mb-2 bg-white animate-cursor will-change-transform"
+              ></span>
+              <div class="flex flex-col">
+                <div class="gap-3 flex flex-start h-[55px]">
+                  <a href="https://github.com/mhmmdsatrioz" target="_blank">
+                    <i
+                      class="fa-brands fa-github bg-[#333333] p-2 rounded-full text-[2.3rem]"
+                    ></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/bayu.satrio.718689"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-brands fa-facebook text-[2rem] rounded-full p-2 bg-[#4267B2]"
+                    ></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="mailto:bayustrio7@gmail.com?subject=SendMail&body=Hello Muhammad Satrio"
+                  >
+                    <i
+                      class="fa-brands fa-google bg-[#EA4234] text-white text-[2rem] p-2 rounded-full"
+                    ></i>
+                  </a>
+                  <!-- </div> -->
+                </div>
+                <div>
+                  <button
+                    class="rounded hover:bg-blue-600 bg-blue-500 w-[12rem] py-2 px-10 text-[1.3rem] text-white font-semibold"
+                  >
+                    Contact
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <lottie-player
+            src="https://assets6.lottiefiles.com/packages/lf20_aesgckiv.json"
+            background="transparent"
+            speed="1"
+            style="width: 500px; height: 500px; text-align: right"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT START -->
+    <div>
+      <div class="flex items-center">
+        <div class="w-full h-1 bg-yellow-400"></div>
+        <div>
+          <h1
+            class="uppercase dark:text-white font-bold text-[2rem] lg:text-[3rem]"
+          >
+            About
+          </h1>
+        </div>
+        <div class="w-full h-1 bg-yellow-400"></div>
+      </div>
+
+      <div class="lg:w-[40%] w-[80%] sm:w-[50%] md:w-[50%] xl:w-[40%] mx-auto">
+        <p class="text-left font-openSans dark:text-white">
+          Hello, I'am Front-end Developer at
+          <b class="text-yellow-400">Dailybox Group</b>.I'm working with newest
+          front-end frameworks like React js, React Native and Next js.
+        </p>
+      </div>
+    </div>
+    <!-- ABOUT END -->
+
+    <!-- SKILL START -->
+    <div class="pt-12 mb-14">
+      <div class="flex items-center">
+        <div class="w-full h-1 bg-yellow-400"></div>
+
+        <h1
+          class="uppercase dark:text-white font-bold text-[2rem] lg:text-[3rem]"
+        >
+          Skills
+        </h1>
+        <div class="w-full h-1 bg-yellow-400"></div>
+      </div>
+      <div
+        class="mx-auto xl:flex m-auto lg:flex grid md:mx-auto sm:mx-auto grid-cols-3 lg:flex-row md:flex-row flex-col justify-center lg:justify-center gap-3 w-full"
+      >
+        <div
+          class="text-center xl:w-[13%] lg:w-[13%] md:w-[50%] rounded sm:w-[40%] w-[90%] flex hover:shadow-[0_5px_15px_rgba(0,0,0,0.3)] hover:shadow-[#007ACC] flex-col justify-center xl:h-[15vh] bg-white p-3"
+        >
+          <div class="w-[90%] mx-auto overflow-hidden flex justify-center">
+            <img src="Images/typescript.svg" class="w-full mx-auto" />
+          </div>
+          <span class="p-0 m-0">Typescript</span>
+        </div>
+
+        <div
+          class="text-center xl:w-[13%] lg:w-[13%] md:w-[50%] rounded sm:w-[40%] w-[90%] hover:shadow-[#264DE4] hover:shadow-[0_5px_15px_rgba(0,0,0,0.3)] flex flex-col justify-center xl:h-[15vh] bg-white p-3"
+        >
+          <div class="w-[90%] mx-auto overflow-hidden flex justify-center">
+            <img src="Images/css.svg" />
+          </div>
+          <span>CSS</span>
+        </div>
+
+        <div
+          class="text-center xl:w-[13%] lg:w-[13%] md:w-[50%] rounded sm:w-[40%] w-[90%] hover:shadow-[#61DBFB] hover:shadow-[0_5px_15px_rgba(0,0,0,0.3)] flex flex-col justify-center xl:h-[15vh] bg-white p-3"
+        >
+          <div class="w-full mx-auto overflow-hidden flex justify-center">
+            <svg
+              class="w-14 h-14 lg:w-12 lg:h-12 md:w-12 md:h-12 sm:w-12 sm:h-12 xl:w-12 xl:h-12"
+              viewBox="0 0 128 128"
+            >
+              <g fill="#61DAFB">
+                <circle cx="64" cy="64" r="11.4"></circle>
+                <path
+                  d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+
+          <span>React</span>
+        </div>
+
+        <div
+          class="text-center xl:w-[13%] lg:w-[13%] md:w-[50%] rounded sm:w-[40%] w-[90%] hover:shadow-[0_5px_15px_rgba(0,0,0,0.3)] hover:shadow-[#19B9B9] flex flex-col justify-center xl:h-[15vh] bg-white p-3"
+        >
+          <div class="w-full mx-auto overflow-hidden flex justify-center">
+            <img src="Images/tailwind.svg" class="w-full" />
+          </div>
+          <p class="mx-auto lg:text-[1rem] text-[0.9rem] text-center">
+            Tailwind
+          </p>
+        </div>
+
+        <div
+          class="xl:w-[13%] lg:w-[13%] md:w-[50%] rounded sm:w-[40%] text-center w-[90%] lg hover:shadow-[#DE4C35] hover:shadow-[0_5px_15px_rgba(0,0,0,0.3)] flex flex-col justify-center xl:h-[15vh] bg-white p-3"
+        >
+          <div class="w-full mx-auto overflow-hidden flex justify-center">
+            <img src="Images/git.svg" class="w-full" />
+          </div>
+
+          <p>Git</p>
+        </div>
+        <div
+          class="text-center xl:w-[13%] lg:w-[13%] md:w-[50%] rounded sm:w-[40%] w-full hover:shadow-[0_5px_15px_rgba(0,0,0,0.3)] hover:shadow-[#F7DF1E] flex flex-col justify-center xl:h-[15vh] bg-white p-3"
+        >
+          <div class="w-[90%] mx-auto overflow-hidden flex justify-center">
+            <img src="Images/javascript.svg" />
+          </div>
+
+          <span>JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="text-center text-white text-[12px]">
+        © 2022 Muhammad Bayou Satrio. All Rights Reserved.
+      </p>
+    </footer>
+    <!-- SKILL END -->
+  </body>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</html>
